@@ -1,0 +1,410 @@
+
+*{
+  margin: 0;
+}
+
+.a {
+  background-color: #0f2440;
+  padding: 44px 105px;
+  
+}
+
+.aa {
+  display: inline;
+  padding: 12px 15px;
+  color: white;
+  font-size: 18px;
+  float: right;
+  font-family: 'Josefin Sans', sans-serif;
+ 
+}
+
+.aaa {
+  display: inline;
+  padding: 50px 50px;
+  color: white;
+  font-size: 35px;
+  font-family: 'Josefin Sans', sans-serif;
+ 
+}
+
+.class-div1 {
+ 
+  position: relative;
+  top: 0px;
+  left: 0;
+  height: 250px;
+  width: 100%;
+  background-image: url('./img/euro-banner.jpg');
+  background-size: cover;
+  padding: 150px 0 300px;
+}
+
+
+.class-div2 {
+  
+  /* background-color: #0f2440; */
+  height: 400px;
+  width: 83.66666667%;
+  
+  background-image: url('./img/euro-1.jpeg');
+  background-repeat: no-repeat;
+  background-size: 600px 401px;
+  background-position: 271px 0px;
+  
+  
+   box-shadow: 0px 61px 76px #01070e; 
+
+}
+
+.class-div3 {
+  color: white;
+  background-color: #0f2440;
+  margin-left: 871px;
+  /* margin-bottom: 500px; */
+  padding: 15px 10px;
+  font-size: 25px;
+  font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.class-div4 {
+  color: white;
+  margin-left: -12px;
+  padding: 15px 10px;
+  font-size: 16px;
+  font-family: 'Josefin Sans', sans-serif;
+  text-align:justify;
+  font-weight: 2;
+  padding-bottom: 4em;
+}
+
+
+.container {
+  
+ 
+  height: 700px;
+}
+
+.roparent {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.roparent1 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.row {
+  width: 320px;
+  height: 200px;
+  padding: 34px 0px 63px 9px;
+  font-family: 'Montserrat', sans-serif;
+  box-shadow: 0px 5px 9px #aaabab;  
+  
+}
+
+.team { 
+  text-align: center;
+  padding: 20px 20px;
+  margin-left: 100px;
+  color:#0f2440;
+
+}
+
+.top {
+  color: #0f2440;
+  text-align: center;
+  padding: 25px 7px;
+}
+
+.down {
+  color: gray;
+  text-align: center;
+  padding: 25px 7px;
+}
+
+.anchor {
+  text-decoration: none;
+
+}
+
+.anchor :hover {
+  color: transparent;
+
+}
+
+/* section 3 */
+h3 {
+  font-weight: 700;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+/* .card {
+  height: 300px;
+  text-align: left ! Important; */
+.us {
+  color: #0f2440;
+}
+
+.d {
+  min-height: 400px;
+  padding: 20px 0;
+  background: #efeded ;
+}
+
+.container2 {
+  padding: 6px 66px;
+  width: 1170px;
+}
+
+.sec {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.tri {
+  width: 116%;
+}
+
+.main-title {
+
+  text-align: center;
+  font-size: 22px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.picture{
+  background-image: url('./img/euro-SANOMA.png');
+  background-size: 214px 126px;
+  background-repeat: no-repeat;
+  background-position: 207px 9px;
+}
+.pic {
+
+  padding: 27px 87px;
+  margin: 76px 44px 36px 433px;
+  font-size: 22px; 
+}
+
+.author {
+  padding-top: 10px;
+  padding-left: 420px;
+  margin-left: 100px;
+  transform: translateY(100%);
+  font-style: italic;
+  color: aqua;
+
+}
+
+/* section e */
+
+.over {
+  height: 400px;
+}
+
+.title {
+ text-align: center;
+ padding: 25px 25px;
+ font-size: 20px;
+ color: #0f2440;
+  
+}
+
+.picture2 {
+
+ 
+  height: 50vh;
+  background-image: url('./img/euro-voda.jpg') ,url('./img/euro-pana.jpg'), url('./img/euro-bajaj.jpg'), url('./img/euro-edel.png'), url('./img/euro-fire.png'), url('./img/euro-carl.jpg'); /* Path to your image */
+  background-size: 170px 130px, 170px 130px, 170px 130px, 170px 130px, 170px 130px, 170px 130px; /* Ensures the image covers the entire element */
+  background-position: 100px 60px, 330px 60px, 550px 60px, 780px 60px, 1010px 60px, 1240px 60px; /* Centers the image */
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+ 
+  /* background-size: 25px 25px;
+  background-repeat: no-repeat;
+  background-position: 25px 25px; */
+}
+
+/* section f */
+
+.f {
+  height: 400px;
+  
+  background-image: url('./img/euro-city.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 100px 0 80px;
+ 
+}
+
+.rows {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.complete-title {
+  text-align: center;
+  margin-bottom: 60px;
+  font-weight: 700;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 23px;
+  color: white
+}
+
+.complete-single {
+  text-align: center;
+  color: #fff;
+  font-family: 'montserrat', sans-serif;
+  padding: 100px 0;
+
+}
+
+.complete-single h3{
+  color: #fff;
+  font-size: 50px;
+  
+}
+
+.num30 {
+  font-size: 70px;
+}
+
+.complete-single p{
+  font-size: 20px;
+  align-content: center;
+}
+
+.rows-1 {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 270px;
+  margin-right: 270px;
+}
+
+/* section g */
+
+.g {
+  background: #223a5a;
+  padding: 30px 0;
+  height: 750px;
+}
+
+.container3{
+
+}
+
+.country {
+  color: #337ab7;
+}
+
+.anchor2 {
+  text-decoration: none;
+  color: #337ab7;
+  font-size: 35px;
+  
+  /* padding: 20px 20px;
+  margin: 20px 20px; */
+
+}
+
+.country {
+  padding: 20px 20px;
+}
+
+.address {
+  color: #fff;
+  font-size: 16px;
+  
+  line-height: 1.7em;
+}
+
+.colss {
+  text-align: start;
+  padding-right: 105px;
+  padding-left: 33px;
+}
+
+.rowww {
+  display: flex;
+  
+  margin-left: 200px;
+  margin-right: 100px;
+}
+
+/* footer */
+
+footer {
+  background-color: #0f2440;
+  padding:  30px 0 40px;
+  height: 500px;
+}
+
+/* color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    position: relative;
+    padding-bottom: 20px; */
+
+
+.footer-link h2 {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  margin-left: 170px;
+  /* margin-right: 450px; */
+  padding: 20px 20px;
+  text-align: left;
+
+}
+
+.footer-about p{
+  color: #fff;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.7em;
+  margin-left: 170px;
+  /* margin-right: 450px; */
+  padding: 20px 20px;
+}
+
+.end {
+  display: flex;
+ 
+   /* width:1000px;  */
+}
+
+.forow {
+  /* margin-left: 170px;
+  margin-right: 450px;
+  padding: 20px 20px; */
+  height: 200px;
+  width: 400px;
+}
+
+.lasta {
+  text-decoration: none;
+}
+
+.site {
+  color: #fff;
+  font-weight: 300;
+}
+
+.forw {
+  text-align: center;
+  padding: 30px 10px;
+  margin-top: 160px;
+  font-size: 20px;
+}
+
